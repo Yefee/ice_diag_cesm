@@ -9,6 +9,7 @@ begin
 dir = "/glade/p/work/che43/projects/ice_diag_cesm/"
 filein = "isop.nc"
 fileout = "isop_rgd.nc"
+
 system("rm -f " + dir + fileout)
 f0 = addfile(dir + filein, "r")
 f1 = addfile(dir + fileout, "c")
@@ -16,7 +17,7 @@ setfileoption(f1,"Format","LargeFile")
 filedimdef(f1,"time",-1,True) 
 
 
-vars = (/"isoiceint001","isoiceint0002","isoiceint003",\
+vars = (/"isoiceint001","isoiceint002","isoiceint003",\
         "isoicessl001","isoicessl002","isoicessl003"/)
 n_vars = dimsizes(vars)
 
