@@ -25,3 +25,5 @@ Note *CASE_TO_DIFF* is invalid;
 line 88: set your ice diagnostics package root directory. The isotope version is at /glade/p/work/che43/tools/PWDG/ice_diag.
 
 If your want to make a version of your own, please copy it from my directory. Or, you can leave it there.
+
+*The ice_diags.csh in the /glade/p/work/che43/tools/PWDG/ice_diag shall work!*
