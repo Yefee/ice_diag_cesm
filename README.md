@@ -13,9 +13,15 @@ Diagnosing delta 18O and delta D in sea ice in cesm
 
 ####how to modify the ice_diag.csh
 line 22: enter your case name;
+
 line 37: change the first number to the start model year you want;
+
 line 37: change the first number to the end model year you want;
+
 In my example, the start year is 999, and end year is 1000, case is b.e13.Bi1850C5.f19_g16.21ka.05;
+
 Note *CASE_TO_DIFF* is invalid;
+
 line 88: set your ice diagnostics package root directory. The isotope version is at /glade/p/work/che43/tools/PWDG/ice_diag.
+
 If your want to make a version of your own, please copy it from my directory. Or, you can leave it there.
